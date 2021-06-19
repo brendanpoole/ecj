@@ -1,0 +1,15 @@
+# Copyright 2006 by Sean Luke and George Mason University
+# Licensed under the Academic Free License version 3.0
+# See the file "LICENSE" for more information
+
+parent.0 = ../regression/erc.params
+
+gp.tree.print-style = c
+
+stat.num-children = 1
+stat.child.0 = ec.app.gui.SimpleXYSeriesChartStatistics
+stat.child.0.title = Sine Wave
+stat.child.0.x-axis-label = Input
+stat.child.0.y-axis-label = Result
+
+pop.subpops.0.portrayal = ec.app.gui.RegressionIndividualPortrayal
